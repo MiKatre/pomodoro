@@ -18,7 +18,8 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.mk.pomodoro"
+      "package": "com.mk.pomodoro",
+      "permissions": ["VIBRATE"]
     }
   }
 }
