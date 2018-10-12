@@ -1,5 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View, Button, Picker } from 'react-native';
+import {KeepAwake} from 'expo'
+
 import {vibrate} from './utils'
 import Counter from './Counter'
 import SetArbitraryTime from './SetArbitraryTime'
@@ -113,6 +115,8 @@ export default class App extends React.Component {
           changeWorkLength={this.changeWorkLength}
           changeBreakLength={this.changeBreakLength}
         />
+
+        <KeepAwake /> 
       </View>
     );
   }
