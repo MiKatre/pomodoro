@@ -1,1 +1,1 @@
-# Pomodoro app
+![cover](https://raw.githubusercontent.com/MiKatre/pomodoro/master/google-play/oneThing-promo.png)
